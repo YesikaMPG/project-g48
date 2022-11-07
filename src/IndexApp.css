@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(193, 194, 215);
+    color:rgb(37, 14, 119);
+    text-align: center;
+    font-size: 25px;
+}
+
+/* cuando tiene un punto antes del nombre es una clase */
+/* evento hover es para cambiar de color al pasar el mouse sobre el texto */
+.saludo:hover { 
+    color:aqua;
+    font-size: 50 px;
+    transition: 5s;
+}
+
+button {
+    font-size: 30px;
+    padding: 10px;
+    color: rgb(3, 35, 24);
+    
+}
+
+main{
+    padding-top: 50px;
+}
+
+i{
+    padding-right: 5px;
+}
